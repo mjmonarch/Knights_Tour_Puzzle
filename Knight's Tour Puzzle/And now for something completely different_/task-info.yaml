@@ -180,5 +180,8 @@ files:
         KnightsTourTest().run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11569#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 25 Jan 2022 21:49:42 UTC
 record: -1

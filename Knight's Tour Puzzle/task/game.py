@@ -609,7 +609,7 @@ def play_board(_board, _x, _y):
         display_board(board1)
         _board[_y][_x] = -3
         while True:
-            print("Enter your next move:")
+            print("Enter your next move: ", end='')
             # print(possible_moves)
             try:
                 _x, _y = [int(x) for x in input().split()]
@@ -618,7 +618,7 @@ def play_board(_board, _x, _y):
                 else:
                     raise ValueError
             except ValueError:
-                print("Invalid move! ", end="")
+                print("Invalid move! ", end='')
         _board[_y][_x] = -2
         count += 1
 
